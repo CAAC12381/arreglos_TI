@@ -1,0 +1,27 @@
+function area ( base, altura){
+return base * altura
+}
+function area ( base, altura){
+    return base * altura /2
+}
+function area ( pi,radio){
+    return 3.14  * (radio *radio)
+}
+function mostrarResultado(operacion, base ,altura){
+    let resultado;
+    switch(operacion){
+      case "area rectangulo": 
+        resultado = area (base,altura)
+      break
+      case "area triangulo":
+        resultado = area (base,altura)
+        break
+        case "area circulo":
+        resultado = area (pi,radio)
+        break
+      default:
+      resultado = "Operacion No Valida"
+    }
+  
+  }
+  
